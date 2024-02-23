@@ -1,0 +1,8 @@
+def moles_to_grams(moles, molar_mass):
+    return moles * molar_mass
+
+# Example usage:
+moles = 1  # Moles of water (H2O)
+molar_mass_water = 18.01528  # Molar mass of water in g/mol
+grams_water = moles_to_grams(moles, molar_mass_water)
+print("Grams of water:", grams_water)
